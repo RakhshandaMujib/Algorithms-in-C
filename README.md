@@ -5,5 +5,5 @@ This repository contains implementation of some fundamental algorithms of differ
 <space> <space> b) Linear search on a linked list<br />
 <space> <space> c) Binary search using iteration<br />
 <space> <space> d) Binary search using recursion <br />
-2. Sorting Algorithms:
+2. Sorting Algorithms: <br/>
   a) Bubble sort
