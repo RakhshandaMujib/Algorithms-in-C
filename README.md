@@ -8,3 +8,4 @@ This repository contains implementation of some fundamental algorithms of differ
 2. [Sorting Algorithms](https://github.com/RakhshandaMujib/Algorithms-in-C/tree/main/02%20Sorting%20Algorithms): <br/>
   a) [Bubble sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/01%20Bubble%20sort.c)<br />
   b) [Selection sort](https://github.com/RakhshandaMujib/Algorithms-in-C/edit/main/02%20Sorting%20Algorithms/02%20Selection%20sort.c)<br />
+  c) [Insertion sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/03%20Insertion%20sort.c)<br /> 
