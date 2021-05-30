@@ -7,3 +7,4 @@ This repository contains implementation of some fundamental algorithms of differ
 <space> <space> d) [Binary search using recursion](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/01%20Searching%20Algorithms/04%20Binary%20search%20using%20recursion.c) <br />
 2. [Sorting Algorithms](https://github.com/RakhshandaMujib/Algorithms-in-C/tree/main/02%20Sorting%20Algorithms): <br/>
   a) [Bubble sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/01%20Bubble%20sort.c)<br />
+  b) [Selection sort](https://github.com/RakhshandaMujib/Algorithms-in-C/edit/main/02%20Sorting%20Algorithms/02%20Selection%20sort.c)<br />
