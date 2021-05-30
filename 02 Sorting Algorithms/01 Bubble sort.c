@@ -9,6 +9,7 @@ void swap(int *left, int *right); //Swaps the values of left and right.
 void bubble_sort(int *arr, int len); //Sorts the contents of array in ascending order.
 
 int main()
+/**< Driver function: */
 {
     int arr[MAX];
 
@@ -17,7 +18,7 @@ int main()
     printf("\nOriginal contents of the array:\n");
       print_array(arr);
 
-    bubble_sort(arr, MAX);
+    selection_sort(arr, MAX);
 
     printf("\nThe array in sorted order:\n");
       print_array(arr);
@@ -25,33 +26,16 @@ int main()
     return 0;
 }
 
-void read_array(int *arr)
-{
-    int i;
-
-    printf("Enter %d elements:\n", MAX);
-
-    for(i = 0; i < MAX; i++)
-        scanf("%d", &arr[i]);
-}
-
-void print_array(int *arr)
-{
-    int i;
-
-    for(i = 0; i < MAX; i++)
-        printf("\t%d ", arr[i]);
-    printf("\n");
-}
-
-void swap(int *left, int *right)
-{
-    int temp = *left;
-    *left = *right;
-    *right = temp;
-}
-
 void bubble_sort(int *arr, int len)
+/**\Brief: Compare every adjascent pair of element and place the smaller element before the larger. Repeat for one pass.
+ *         Repeat for multiple passes. 
+ *
+ * \Parameters:
+ *     \arr: Pointer to the array to be sorted.
+ *     \len: Length of the array.
+ *
+ * \Returns: Void.
+ */
 {
     int i, j;
     bool swapped; //Boolean variable to check if swapping of contents of neighbouring indices took place.
@@ -72,4 +56,55 @@ void bubble_sort(int *arr, int len)
         printf("\nArray in pass %d:", -(i-len)); //Print the contents of the array in every pass.
         print_array(arr); 
     }
+}
+
+
+/**< Utility functions: */
+
+void read_array(int *arr)
+/** \Brief: Read the array.
+ *
+ * \Parameter:
+ *     \arr: Pointer to the declared array.
+ *
+ * \Returns: Void.
+ */
+{
+    int i;
+
+    printf("Enter %d elements:\n", MAX);
+
+    for(i = 0; i < MAX; i++)
+        scanf("%d", &arr[i]);
+}
+
+void print_array(int *arr)
+/** \Brief: Prints the array.
+ *
+ * \Parameter:
+ *     \arr: Pointer to the declared array.
+ *
+ * \Returns: Void.
+ */
+ {
+    int i;
+
+    for(i = 0; i < MAX; i++)
+        printf("\t%d ", arr[i]);
+    printf("\n");
+}
+
+void swap(int *left, int *right)
+/** \Brief: Swap elements element at left and right.
+ *
+ * \Parameter:
+ *     \left: Pointer to the the element at left.
+ *     \left: Pointer to the the element at right.
+ *
+ * \Returns: Void.
+ */
+ {
+    int temp = *left;
+    *left = *right;
+    *right = temp;
 }
