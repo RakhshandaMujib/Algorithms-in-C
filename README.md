@@ -11,5 +11,5 @@ Happy learning! <br />
   b) [Selection sort](https://github.com/RakhshandaMujib/Algorithms-in-C/edit/main/02%20Sorting%20Algorithms/02%20Selection%20sort.c)<br />
   c) [Insertion sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/03%20Insertion%20sort.c)<br /> 
   d) [Quick sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/04%20Quick%20sort.c)<br />
-  e) [Merge sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/05%20Merge%20sort.c)
-  f) [Heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/06%20Heap%20sort.c)
+  e) [Merge sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/05%20Merge%20sort.c) <br />
+  f) [Heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/06%20Heap%20sort.c)<br />
