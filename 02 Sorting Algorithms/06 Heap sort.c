@@ -3,7 +3,7 @@
 #define MAX 6
 
 void read_array(int *arr);
-void print_array(int *arr);
+void print_array(int *arr, int len);
 void swap(int *left, int *right);
 void heap_sort(int *arr, int len);
 void min_heapify(int *arr, int node, int heap_size);
@@ -16,7 +16,7 @@ int main()
     read_array(arr);
 
     printf("\nOriginal contents of the array:\n");
-      print_array(arr);
+      print_array(arr, MAX);
 
     heap_sort(arr, MAX);
 
@@ -39,24 +39,27 @@ void heap_sort(int *arr, int len)
  */
 {
     int i, last_element;
-
+    
+    printf("\n\n\t\t\tHeapifying the array...\n\n"); //Start deleting the root.
+     
     for(i = len / 2 - 1; i >= 0; i--) //From the first non-leaf to the root.
     {
         min_heapify(arr, i, len); //Heapify the node.
-        printf("\n\tHeapifying node [%d]:", i);
-        print_array(arr);
+        printf("\n\tHeapifying node [%d]...\n", i);
+        printf("\tNew min heap:");
+        print_array(arr, len);
     }//Will return the min heap.
-
-    printf("\n\tMin heap ready:\n");
-    print_array(arr);
+    
+    printf("\n\n\t\t\tDeleting minimum elements...\n\n"); //Start deleting the root.
 
     while(len) //Delete the root (minimum element).
     {
         last_element = len - 1; //Get the index of the last element.
+        printf("\n\tMinimum element: %d", arr[0]);
         swap(&arr[0], &arr[last_element]); //Swap the root with the last leaf node.
         min_heapify(arr, 0, --len); //Again heapify the root.
-        printf("\n\tNew contents:");
-        print_array(arr);
+        printf("\n\tNew min heap:");
+        print_array(arr, len);
     }
 }
 
@@ -111,18 +114,19 @@ void read_array(int *arr)
         scanf("%d", &arr[i]);
 }
 
-void print_array(int *arr)
+void print_array(int *arr, int len)
 /** \Brief: Prints the array.
  *
  * \Parameter:
  *     \arr: Pointer to the declared array.
+ *     \len: Integer. Length to be printed till.
  *
  * \Returns: Void.
  */
  {
     int i;
 
-    for(i = 0; i < MAX; i++)
+    for(i = 0; i < len; i++)
         printf("\t%d ", arr[i]);
     printf("\n");
 }
