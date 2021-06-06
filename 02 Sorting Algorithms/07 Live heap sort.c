@@ -15,16 +15,18 @@ int main()
     printf("Enter %d elements:\n", MAX);
     heap_sort(arr, MAX);
 
-    printf("\nThe array in sorted order:\n");
-    for(i = MAX - 1; i >= 0; i--)
+    printf("\nThe array in sorted order:\n"); //Since the array gets 
+                                              //sorted in descending order...
+    for(i = MAX - 1; i >= 0; i--) //Print the array in reverse order.
         printf("\t%d", arr[i]);
 
     return 0;
 }
 
 void heap_sort(int *arr, int len)
-/**\Brief: Heapifies the array till the contents are sorted in
- *         descending order.
+/**\Brief: Heapifies the array as it reads its elements. Once the min heap is ready, 
+ *         it pushes the root to the end after return the minimum element. The array 
+ *         gets sorted in descending order.
  *
  * \Parameters:
  *     \arr: Pointer to the array interpreted as a heap to be sorted.
@@ -103,6 +105,7 @@ void print_array(int *arr, int len)
  *
  * \Parameter:
  *     \arr: Pointer to the declared array.
+ *     \len: Integer. Length to print the contents till.
  *
  * \Returns: Void.
  */
