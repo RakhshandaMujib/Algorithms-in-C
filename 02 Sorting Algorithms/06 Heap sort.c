@@ -20,8 +20,9 @@ int main()
 
     heap_sort(arr, MAX);
 
-    printf("\nThe array in sorted order:\n");
-    for(i = MAX - 1; i >= 0; i--)
+    printf("\nThe array in sorted order:\n"); //Since the array gets 
+                                              //sorted in descending order...
+    for(i = MAX - 1; i >= 0; i--) //Print the array in reverse order.
         printf("\t%d", arr[i]);
 
     return 0;
