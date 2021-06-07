@@ -14,3 +14,4 @@ Happy learning! <br />
   2.5) [Merge sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/05%20Merge%20sort.c) <br />
   2.6.1) [Heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/06%20Heap%20sort.c)<br />
   2.6.2) [Live heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/07%20Live%20heap%20sort.c)<br />
+  2.7) [Counting sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/08%20Counting%20sort.c)<br />
