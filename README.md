@@ -11,7 +11,9 @@ Happy learning! <br />
   2.2) [Selection sort](https://github.com/RakhshandaMujib/Algorithms-in-C/edit/main/02%20Sorting%20Algorithms/02%20Selection%20sort.c)<br />
   2.3) [Insertion sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/03%20Insertion%20sort.c)<br /> 
   2.4) [Quick sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/04%20Quick%20sort.c)<br />
-  2.5) [Merge sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/05%20Merge%20sort.c) <br />
+  2.5.1) [Merge sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/05%20Merge%20sort.c) <br />
+  2.5.2) [Merge sort on a linked list] (https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/10%20Merge%20sort%20on%20a%20linked%20list.c)<br />
   2.6.1) [Heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/06%20Heap%20sort.c)<br />
   2.6.2) [Live heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/07%20Live%20heap%20sort.c)<br />
   2.7) [Counting sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/08%20Counting%20sort.c)<br />
+  2.8) [Bucket sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/09%20Bucket%20sort.c)<br />
