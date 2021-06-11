@@ -17,3 +17,4 @@ Happy learning! <br />
   2.6.2) [Live heap sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/07%20Live%20heap%20sort.c)<br />
   2.7) [Counting sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/08%20Counting%20sort.c)<br />
   2.8) [Bucket sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/09%20Bucket%20sort.c)<br />
+  2.9) [Radix sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/11%20Radix%20sort.c)<br />
