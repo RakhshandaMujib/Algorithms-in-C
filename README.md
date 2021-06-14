@@ -19,4 +19,4 @@ Happy learning! <br />
   2.8) [Bucket sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/09%20Bucket%20sort.c)<br />
   2.9) [Radix sort](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/02%20Sorting%20Algorithms/11%20Radix%20sort.c)<br />
 3. Greedy Algorithms: <br />
-  3.1 [Fractional knapsack](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/03%20Greedy%20Algorithms/01%20Fractional%20knapsack.c) <br />
+  3.1) [Fractional knapsack](https://github.com/RakhshandaMujib/Algorithms-in-C/blob/main/03%20Greedy%20Algorithms/01%20Fractional%20knapsack.c) <br />
